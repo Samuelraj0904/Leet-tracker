@@ -6,7 +6,7 @@ import { LinearGradient } from "expo-linear-gradient";
 import { BlurView } from "expo-blur";
 
 const { width: SW } = Dimensions.get("window");
-const BASE = "http://localhost:3000";
+const BASE = "https://leet-tracker-api.onrender.com";
 
 type Contest = {
   title: string;
