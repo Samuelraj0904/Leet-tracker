@@ -1,0 +1,21 @@
+node_modules
+.vscode
+leetCode-api.txt
+
+dist
+
+# Package manager lock files (we use npm only)
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+.DS_Store
+
+# Vitest
+coverage/
+.vitest/
+
+CLAUDE.md
+.claude/
+.specify/
+specs/
