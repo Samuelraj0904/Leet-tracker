@@ -54,7 +54,7 @@ export const UserProvider = ({ children }: { children: React.ReactNode }) => {
   const login = async (user: string): Promise<boolean> => {
     setError("");
     try {
-      const res  = await fetch(`http://localhost:3000/${user}`);
+      const res  = await fetch(`https://leet-tracker-api.onrender.com/${user}`);
       const json = await res.json();
       if (!json || json.errors || !json.username) {
         setError("User not found. Check the username.");

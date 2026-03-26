@@ -1,5 +1,5 @@
 // utils/fetchLeetCode.ts
-const BASE = "http://localhost:3000";
+const BASE = "https://leet-tracker-api.onrender.com";
 
 export type LanguageStat = { name: string; solved: number };
 export type SkillTag     = { name: string; solved: number };
